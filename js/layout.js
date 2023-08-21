@@ -1,0 +1,41 @@
+// Create the products list using the external JS variables
+
+//render each laptop product
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//comment section

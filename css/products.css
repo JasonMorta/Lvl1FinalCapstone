@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Bruno+Ace+SC&family=Foldit&family=Frijole&family=Libre+Barcode+128+Text&family=Libre+Barcode+39+Text&family=Oxanium&family=Rubik+80s+Fade&family=Rubik+Glitch&family=Rubik+Marker+Hatch&family=Rubik+Maze&family=Rubik+Microbe&family=Rubik+Pixels&family=Rubik+Storm&family=Shojumaru&family=Vampiro+One&family=Zen+Tokyo+Zoo&display=swap');
+/* 
+font-family: 'Akronim', cursive;
+font-family: 'Bruno Ace SC', cursive;
+font-family: 'Foldit', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Libre Barcode 128 Text', cursive;
+font-family: 'Libre Barcode 39 Text', cursive;
+font-family: 'Oxanium', cursive;
+font-family: 'Rubik 80s Fade', cursive;
+font-family: 'Rubik Glitch', cursive;
+font-family: 'Rubik Marker Hatch', cursive;
+font-family: 'Rubik Maze', cursive;
+font-family: 'Rubik Microbe', cursive;
+font-family: 'Rubik Pixels', cursive;
+font-family: 'Rubik Storm', cursive;
+font-family: 'Shojumaru', cursive;
+font-family: 'Vampiro One', cursive;
+font-family: 'Zen Tokyo Zoo', cursive;
+*/
+.liked {
+    width: 25px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.card {
+    position: relative;
+    width: 18rem;
+    max-height: 400px;
+    box-shadow: 0px 0px 1px gray;
+    padding: 5px;
+    font-size: small;
+}
+
+.list-group p {
+    color: rgb(82, 82, 82);
+}
+
+.list-group-item {
+    user-select: text;
+}
+
+.comment-section {
+    width: 80%;
+    margin: auto;
+}
+
+.comment-section  button {
+    margin-top: 10px;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.img-wrapper img {
+    width: fit-content;
+    height: -webkit-fill-available;
+    border-radius: 2px;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.048);
+    margin: auto;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 5px;
+}
+
+.products .card {
+    margin: 5px;
+    border: 0;
+}
+
+footer {
+    height: 100px;
+}
+
+tr {
+  background-color: #00000007;
+  border-radius: 5px;
+}

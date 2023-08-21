@@ -1,0 +1,48 @@
+.card {
+    margin: 20px;
+    position: relative;
+}
+
+/* like icon */
+.card-body img {
+    width: 29px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.card-body img:hover {
+    transform: scale(1.1);
+}
+
+.card-body img:active {
+    transform: scale(1.2);
+}
+
+
+/* Testimonials */
+.box-container {
+    display: block;
+    min-width: 330px;
+    width: 90%;
+    margin: auto;
+    padding: 3px;
+    font-size: initial;
+    color: #000000d3;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+}
+
+.box-container-inner {
+  padding: 0.75rem;
+  border-radius: 8px;
+  background-color: #ddebf853;
+} 
+
+h3 {
+    text-shadow: 2px 2px 2px #00000031;
+    cursor: pointer;
+}

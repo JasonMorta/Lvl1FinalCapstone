@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Bruno+Ace+SC&family=Foldit&family=Frijole&family=Libre+Barcode+128+Text&family=Libre+Barcode+39+Text&family=Oxanium&family=Rubik+80s+Fade&family=Rubik+Glitch&family=Rubik+Marker+Hatch&family=Rubik+Maze&family=Rubik+Microbe&family=Rubik+Pixels&family=Rubik+Storm&family=Shojumaru&family=Vampiro+One&family=Zen+Tokyo+Zoo&display=swap');
+/* 
+font-family: 'Akronim', cursive;
+font-family: 'Bruno Ace SC', cursive;
+font-family: 'Foldit', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Libre Barcode 128 Text', cursive;
+font-family: 'Libre Barcode 39 Text', cursive;
+font-family: 'Oxanium', cursive;
+font-family: 'Rubik 80s Fade', cursive;
+font-family: 'Rubik Glitch', cursive;
+font-family: 'Rubik Marker Hatch', cursive;
+font-family: 'Rubik Maze', cursive;
+font-family: 'Rubik Microbe', cursive;
+font-family: 'Rubik Pixels', cursive;
+font-family: 'Rubik Storm', cursive;
+font-family: 'Shojumaru', cursive;
+font-family: 'Vampiro One', cursive;
+font-family: 'Zen Tokyo Zoo', cursive;
+*/
+
+/* fonts */
+h1,h2,h3,h4,p,span,li,button {
+   color: #787878;
+}
+
+h1, h2, h3 {
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+
+    text-shadow: 2px 2px 2px #00000031;
+}
+
+.navbar-brand {
+    font-size: x-large;
+}
+
+header {
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+header h1 {
+    color: #fff;
+    font-size: xxx-large;
+     transform: translateZ(20px);
+text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+
+/* Layouts */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: url('../assets/funky-lines.png');
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+html {
+    margin: auto;
+}
+
+nav {
+
+}
+
+header {
+    background-image: url('../assets/hero.jpg');
+    display: flex;
+    height: 190px;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position-y: 63%;
+}
+
+/* features products */
+.featured-products, .product-sales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.featured-products, .product-sales  {
+    position: relative;
+    /* height: 60px;
+    width: 100%; */
+}
+
+.featured-main-products, .product-sales-main-products {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+}
+
+.featured-main-products img, .product-sales img {
+    width: 300px;
+    height: fit-content;
+}
+
+.product-sales {
+    margin-bottom: 175px;
+
+}
+
+footer {
+    height: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}

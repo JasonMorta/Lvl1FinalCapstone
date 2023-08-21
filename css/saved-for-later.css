@@ -1,0 +1,13 @@
+.saved-items-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: white;
+}
+
+.saved-items-container .card {
+ border: 0;
+ margin: 10px;
+}

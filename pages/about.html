@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/about.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <title>Techish</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-sm bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Techish</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./save-for-later.html">Saved For Later</a>
+          </li>
+              <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <h1>Techish</h1>
+  </header>
+  <main>
+
+    <div class="card">
+      <div class="card-header">
+        <h1>About</h1>
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>Welcome to our tech store, your ultimate destination for all things innovative and cutting-edge.
+            With a curated selection of the latest gadgets, electronics, and accessories, we cater to tech enthusiasts,
+            professionals, and casual users alike. Our store is more than just a shopping destination;
+            it's a hub of technological inspiration where you can explore, learn, and experience the future today.
+            From state-of-the-art smartphones to powerful laptops, smart home solutions to gaming gear,
+            we pride ourselves on offering top-notch products that seamlessly integrate into your modern lifestyle.
+            Step into a world of limitless possibilities at our tech store, where technology meets imagination.</p>
+          <footer class="blockquote-footer">By <cite title="Source Title">Store owner</cite></footer>
+        </blockquote>
+        <img src="../assets/heart_outline.png" alt="like" onclick="liked(event)">
+      </div>
+    </div>
+
+    <!-- Testimonials -->
+     <div style="height:400px">
+       <container class="box-container">
+          <div class="box-container-inner">
+            <h3>Testimonial ▴</h1>
+            <p>I am thrilled to share my heartfelt testimonial for TechGizmo's TimeMaster. 
+              From the moment I started using it, my experience has been nothing short of exceptional. 
+              This innovative productivity tool has truly transformed the way 
+              I manage my daily tasks and projects.
+            </p>
+            <p>The attention to detail and user-centric design is evident in every aspect. 
+              The intuitive interface makes it a breeze to organize my tasks, 
+              set priorities, and track my progress. 
+              I have found myself completing tasks ahead of schedule and 
+              feeling more in control of my time than ever before.</p>
+            <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+            <p>John Doe saved us from a web disaster.</p>
+          </div>
+        </container>
+     </div>
+  </main>
+  <script src="../js/about.js"></script>
+  <script src="../js/aboutjQuery.js"></script>
+</body>
+
+</html>
